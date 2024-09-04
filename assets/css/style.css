@@ -54,7 +54,7 @@ body {
 
 #home {
     height: 60vh;
-    background-image: linear-gradient(rgba(0, 51, 102, 0.947), rgba(0, 51, 102, 1)),url(/assets/img/2b8453d9c9f6e1e1c35dcb523e516478.jpg);
+    background-image: linear-gradient(rgba(0, 51, 102, 0.368), rgba(0, 51, 102, 1)),url(../img/2b8453d9c9f6e1e1c35dcb523e516478.jpg);
     background-position: center;
     background-size: cover;
     
