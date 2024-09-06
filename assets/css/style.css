@@ -85,3 +85,26 @@ body {
     background: #003366;
     color: #fff;
 }
+
+#socio-reseau row {
+    gap: 5px;
+}
+
+#socio-reseau  a {
+    text-decoration: none;
+    color: #ffc107;
+}
+
+#socio-reseau .row {
+    gap: 10px;
+}
+
+#socio-reseau .col-lg-3:hover{
+ background: #967205d0;
+}
+
+.container-footer {
+    background: #081623;
+    height: 12vh;
+    width: 100%;
+}
