@@ -7,42 +7,51 @@
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="../assets/css/aos.css">
     <link rel="stylesheet" href="../assets/css/line-awesome.min.css">
-    <link rel="stylesheet" href="../assets/css/realisation.css">
+    <link rel="stylesheet" href="../assets/css/contact.css">
 </head>
-<body class="custom-bg text-white p-3" data-bs-spy="scroll" data-bs-target=".navbar">
-    <nav class="navbar navbar-expand-lg custom-bg" id="navnavbar">
-        <div class="container">
-          <a class="navbar-brand " href="../index.html">ykm.</a>
-          <button class=" navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon "></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav  ms-auto">
-              <li class="nav-item">
-                <a class="nav-link  p-3" aria-current="page" href="../index.html">Accueil</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link   p-3" href="../dist/realisation.html">Réalisation</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active p-3" href="../dist/contact.html"><span class="btn-contact">Me Contacter</span></a>
-              </li>
-            </ul>
-          </div>
+<body class="custom-bg text-white" data-bs-spy="scroll" data-bs-target=".navbar" id="body-color">
+  <section id="navnavbar">
+    <nav class="navbar navbar-expand-lg custom-bg h-auto" >
+      <div class="container">
+        <a class="navbar-brand text-warning" href="../index.html">ykm.</a>
+        <button class=" navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav  ms-auto">
+            <li class="nav-item">
+              <a class="nav-link text-white p-3" aria-current="page" href="../index.html">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white p-3" href="../dist/realisation.html">Réalisation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-warning p-3" href="../dist/contact.html"><span class="btn-contact">Me Contacter</span></a>
+            </li>
+          </ul>
         </div>
-      </nav>
-      <section class="container-fluid" id="home">
-        <div class="">
-            <!-- Text Section -->
-            <div class="row">
-                <div class="col-12">
-                
-                </div>
+      </div>
+    </nav>
+  </section>
+     <section class="container py-5 px-5 justify-content-center w-75" id="main-projet">
+      <h1 class="text-skill fs-2 p-3" data-delay="1">Me contacter</h1>
+        <p class="p-4">Merci de donner un maximum de détail sur le projet afin que je puisse évaluer correctement la charge de travail que représente votre projet. 
+          Cela permettra aussi d'avoir un premier chiffrage au plus proche du devis final. </p>
+          <div class=" container mb-3">
+            <div class="row g-3">
+              <div class="col-md-6 g-3">
+                <input type="text" class="form-control rounded-0 border-0" id="exampleFormControlInput1" placeholder="nom et prenom">
+              </div>
+              <div class="col-md-6 g-3 ">
+                <input type="email" class="form-control rounded-0 border-0" id="exampleFormControlInput1" placeholder="email">
+              </div>
+              <div class="col-md-6 formMessage">
+                <textarea type="text" class="form-control rounded-0 border-0 " id="exampleFormControlTextarea1" placeholder="Description de projet" rows="5"></textarea>    
+              </div>
+              </div>
             </div>
-        </div>
-    </section>
+     </section>
     
-              
       <section class="container py-5 " id="socio-reseau">
         <h1 class="text-skill">RESEAUX SOCIAUX</h1>
         <div class="row justify-content-center g-5">
@@ -63,8 +72,8 @@
       <footer class="container-fluid container-footer py-5">
         <p class="text-center">Design par mathus-rolther| Intégration et Développement</p>
       </footer>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-      <script src="assets/js/aos.js"></script>
-      <script src="assets/js/script.js"></script>
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+      <script src="../assets/js/aos.js"></script>
+      <script src="../assets/js/script.js"></script>
 </body>
 </html>

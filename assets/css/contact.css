@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#form-contact {
+    background: #022546;
+}
+
+#navnavbar {
+    height: 60vh;
+    background-image: linear-gradient(rgba(0, 51, 102, 0.418), rgba(0, 51, 102, 0.988)),url(../img/contacter-nous-1-e1693122738259.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#body-color {
+    background: #003366e3;
+}
+
+#main-projet{
+    margin-top: -300px;
+    background: #02386b97;
+    
+}
+
+.formMessage {
+   float: right;
+}
+
+#socio-reseau row {
+    gap: 5px;
+}
+
+#socio-reseau  a {
+    text-decoration: none;
+    color: #ffc107;
+}
+
+#socio-reseau .row {
+    gap: 10px;
+}
+
+#socio-reseau .col-lg-3:hover{
+ background: #967205d0;
+}
+
+.container-footer {
+    background: #081623;
+    height: 12vh;
+    width: 100%;
+}
